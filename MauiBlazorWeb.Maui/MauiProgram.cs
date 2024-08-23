@@ -29,7 +29,7 @@ namespace MauiBlazorWeb.Maui
 
             builder.Services.AddSingleton<IFormFactor, FormFactor>();
             builder.Services.AddMudServices();
-
+            
             return builder.Build();
         }
     }
